@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.OtpVerifyActivity">
+
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/back_otp_verify"
+            android:layout_below="@+id/card_icon_login"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/arrow_back_24" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/calibri_bold"
+                android:text="@string/please_enter_otp_to_mobile"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/calibri_regular"
+                android:text="@string/please_enter_otp"
+                android:textColor="@color/colorGrayDark"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/tv_mobile_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/calibri_regular"
+                android:text="+91-9984810015"
+                android:textColor="@color/colorGrayDark"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/et_otp_1"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/shap_otp"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:hint="X"
+                    android:textSize="@dimen/_15sdp"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+
+                <EditText
+                    android:id="@+id/et_otp_2"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/shap_otp"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:hint="X"
+                    android:textSize="@dimen/_15sdp"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+
+                <EditText
+                    android:id="@+id/et_otp_3"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/shap_otp"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:hint="X"
+                    android:textSize="@dimen/_15sdp"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+
+                <EditText
+                    android:id="@+id/et_otp_4"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/shap_otp"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:hint="X"
+                    android:textSize="@dimen/_15sdp"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+
+                <EditText
+                    android:id="@+id/et_otp_5"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/shap_otp"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:hint="X"
+                    android:textSize="@dimen/_15sdp"
+                    android:inputType="number"
+                    android:maxLength="1" />
+
+                <EditText
+                    android:id="@+id/et_otp_6"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/shap_otp"
+                    android:fontFamily="@font/calibri_bold"
+                    android:gravity="center"
+                    android:hint="X"
+                    android:textSize="@dimen/_15sdp"
+                    android:inputType="number"
+                    android:maxLength="1" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/process_icon_24dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/calibri_regular"
+                    android:text="Resend code in"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/purple_500"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/calibri_bold"
+                    android:text="Resend OTP"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:fontFamily="@font/calibri_bold"
+            android:text="@string/verify_otp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_12sdp" />
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

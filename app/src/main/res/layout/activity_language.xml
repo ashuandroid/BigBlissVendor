@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.LanguageActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/language_img" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="E"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:id="@+id/tv_english"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/english"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="G"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:id="@+id/tv_gujrati"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/gujarati"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="H"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:id="@+id/tv_hindi"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/hindi"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="M"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:id="@+id/tv_marathi"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/marathi"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="P"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:id="@+id/tv_punjabi"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/punjabi"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="T"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:id="@+id/tv_telgu"
+                        android:text="@string/telugu"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="U"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="start"
+                        android:id="@+id/tv_urdu"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/urdu"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="B"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:id="@+id/tv_bangali"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/bangali"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="T"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:id="@+id/tv_tamil"
+                        android:text="@string/tamil"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="K"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/kannada"
+                        android:id="@+id/tv_kannada"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="M"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/malayalam"
+                        android:id="@+id/tv_malyalam"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:cardBackgroundColor="@color/colorGrayDark"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <TextView
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:fontFamily="@font/calibri_bold"
+                            android:gravity="center"
+                            android:text="O"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_25sdp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:background="@drawable/shap_language"
+                        android:fontFamily="@font/calibri_regular"
+                        android:gravity="end"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_15sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/odisha"
+                        android:id="@+id/tv_odisha"
+                        android:textColor="@color/purple_500"
+                        android:textSize="@dimen/_15sdp" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

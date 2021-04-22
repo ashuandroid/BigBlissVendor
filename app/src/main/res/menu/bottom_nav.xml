@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_24dp"
+        android:checked="true"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/orders_24dp"
+        android:checked="false"
+        android:title="Orders"/>
+
+
+    <item
+        android:id="@+id/nav_manage_store"
+        android:icon="@drawable/setting_24dp"
+        android:checked="false"
+        android:title="Manage Store"/>
+
+
+    <item
+        android:checked="false"
+        android:id="@+id/nav_bill"
+        android:icon="@drawable/bill_24dp"
+        android:title="Create Bill" />
+
+    <item
+        android:checked="false"
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/menu_24dp"
+        android:title="More" />
+
+
+
+</menu>

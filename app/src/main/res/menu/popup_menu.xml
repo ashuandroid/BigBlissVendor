@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_all"
+        android:title="@string/all" />
+    <item
+        android:id="@+id/menu_pending"
+        android:title="@string/pending"/>
+    <item
+        android:id="@+id/menu_accepted"
+        android:title="@string/accepted"/>
+    <item
+        android:id="@+id/menu_declined"
+        android:title="@string/declined"/>
+    <item
+        android:id="@+id/menu_shipped"
+        android:title="@string/shipped"/>
+    <item
+        android:id="@+id/menu_cancelled"
+        android:title="@string/cancelled"/>
+    <item
+        android:id="@+id/menu_delivered"
+        android:title="@string/delivered"/>
+    </group>
+</menu>

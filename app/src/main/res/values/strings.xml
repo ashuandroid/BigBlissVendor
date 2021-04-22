@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BigBliss</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="login_with_mobile">Login with Mobile</string>
+    <string name="login_with_google">Sign in with Google</string>
+    <string name="login_terms">By Signing in, you agree to the \nTerms &amp; Condition</string>
+
+    <string name="please_enter_otp_to_mobile">Please enter the OTP send to your \nmobile number</string>
+    <string name="please_enter_otp">Please enter the 6-digit code send to you at</string>
+
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+
+    <string name="done">Done</string>
+
+    <string name="text_state">Select State</string>
+    <string name="text_city">City</string>
+    <string name="text_area">Area</string>
+    <string name="text_locality">Locality / Landmark</string>
+
+    <string name="singnup">Signup</string>
+    <string name="create_store">Create Store</string>
+
+    <string name="select_business">Type of Business</string>
+    <string name="sole_proprietor">Sole Proprietor</string>
+    <string name="partnership">Partnership</string>
+    <string name="private_limited">Private Limited</string>
+    <string name="limited_company">Limited Company</string>
+    <string name="non_profit">Non Profit</string>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="urdu">اردو</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="gujarati">ગુજરાતી</string>
+    <string name="marathi">मराठी</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="bangali">বাঙালি</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="odisha">Odisha</string>
+
+    <string name="overview">Overview</string>
+
+    <string name="orders">ORDERS</string>
+    <string name="revenue">REVENUE</string>
+    <string name="store_views">STORE VIEWS</string>
+    <string name="product_views">PRODUCT VIEWS</string>
+
+
+    <string-array name="array_calender">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>Last 7 Days</item>
+        <item>Last 30 Days</item>
+        <item>This Month</item>
+        <item>Last Month</item>
+        <item>This Year</item>
+        <item>Life Time</item>
+        <item>Custome</item>
+    </string-array>
+
+
+    <string name="active_order">Active Orders</string>
+    <string name="view_all">View All</string>
+
+
+    <string name="all">All</string>
+    <string name="pending">Pending</string>
+    <string name="accepted">Accepted</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="declined">Declined</string>
+    <string name="shipped">Shipped</string>
+    <string name="delivered">Delivered</string>
+
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <string name="details">Details</string>
+
+    <string name="order_date">Order Date</string>
+    <string name="item_total">Item Total</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="customer_detail">CUSTOMER DETAILS</string>
+    <string name="share">SHARE</string>
+
+    <string name="name">Name:</string>
+    <string name="mobile">Mobile:</string>
+    <string name="address">Address:</string>
+    <string name="city">City:</string>
+    <string name="pin_code">Pin Code:</string>
+    <string name="payment">Payment:</string>
+
+    <string name="order_detail">Order Details</string>
+
+    <string name="wallet">Add Money to Bigbliss Wallet</string>
+    <string name="my_wallet">My Wallet Balance</string>
+    <string name="add_money_to_wallet">Add Money to Wallet</string>
+
+    <string name="enter_amount">Enter Amount</string>
+    <string name="have_a_promocode">Have a PromoCode ?</string>
+
+    <string name="text_continue">Continue</string>
+
+
+    <string name="store_name">Store Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_id">Emil ID</string>
+    <string name="store_description">Store Description</string>
+    <string name="store_address">Store Address</string>
+    <string name="store_country">County</string>
+    <string name="store_state">State</string>
+    <string name="store_city">City</string>
+    <string name="store_pin">Pincode</string>
+    <string name="store_control">Store Control</string>
+    <string name="store_control_hint">control how customer can order from your store when they are connected with you throw this app.</string>
+    <string name="take_orders_online">Take Orders Online</string>
+    <string name="allow_order_when_out_stock">Allow order when Out of Stock</string>
+    <string name="accept_order_automatically">Accept Order Automatically</string>
+    <string name="restrict_order_distance">Restrict order distance</string>
+    <string name="no_delivery_take_way">No delivery/Take away only</string>
+    <string name="pickup_address_same_as_registered">Pickup Address-Same as Registered?</string>
+
+
+    <string name="privacy_control">Privacy Control</string>
+
+
+    <string name="visible_to_customer">Visible to customers</string>
+    <string name="share_phone_number">Share Phone Number</string>
+    <string name="share_email_address">Share email address</string>
+    <string name="do_you_have_pan">Do you have PAN</string>
+
+    <string name="do_you_have_tan">Do you have TAN</string>
+    <string name="do_you_have_gst">Do you have GST No.?</string>
+
+
+    <string name="setup_complete">Complete Store Setup</string>
+
+    <string name="select_category">Select Categories, Which you deals</string>
+
+    <string name="search_category">You can search categories</string>
+
+    <string name="restaurant">Restaurant</string>
+
+
+    <string name="finish">Finish</string>
+
+    <string name="selling_product">You are selling products as Franchiser, Distributor of a Dedicated company ?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="condition_text">If You are dedicated Supplied or Distributor or Franchise of Only one company Please select YES.</string>
+
+
+</resources>
